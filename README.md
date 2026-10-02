@@ -49,4 +49,3 @@ codex plugin add screen-eyes@bitforest-screen-eyes
 运行时源文件位于 src；可分发插件位于 plugins/screen-eyes，第三方运行时许可随插件附带。安装器的源文件为 src/quick_installer.py。
 
 问题请提交 [Issues](https://github.com/BTS-BitForest/codex-screen-eyes/issues) 或联系 **1484805878@qq.com**。不要提交密码、代理凭据、私人截图或完整会话日志。
-

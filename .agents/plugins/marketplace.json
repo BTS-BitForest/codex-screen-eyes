@@ -1,0 +1,20 @@
+{
+  "name": "bitforest-screen-eyes",
+  "interface": {
+    "displayName": "Bitforest 屏幕眼睛"
+  },
+  "plugins": [
+    {
+      "name": "screen-eyes",
+      "source": {
+        "source": "local",
+        "path": "./plugins/screen-eyes"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

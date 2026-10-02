@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "screen-eyes",
+  "version": "0.4.0-preview+codex.20261002033358",
+  "description": "Local Windows screen vision with experimental native voice lifecycle sharing.",
+  "author": {
+    "name": "Bitforest",
+    "email": "1484805878@qq.com"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Codex 屏幕眼睛",
+        "shortDescription": "本地屏幕观察，支持实验性的语音自动共享。",
+        "category": "Productivity",
+        "defaultPrompt": "配置 screen-eyes 的共享来源和语音自动共享。",
+        "developerName": "Bitforest",
+        "logo": "./assets/icon.svg",
+        "composerIcon": "./assets/icon.svg"
+      }
+    }
+  },
+  "repository": "https://github.com/BTS-BitForest/codex-screen-eyes"
+}
